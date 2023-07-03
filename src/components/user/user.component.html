@@ -1,0 +1,10 @@
+<div class="profile-card" id="userid-{{user?.id}}">
+  <img *ngIf="user?.image" src="{{user?.image}}" class="profile-image" />
+  <div>
+    <span class="full-name">
+      <p class="first-name">Name: {{user?.firstName}}</p>
+      <p class="last-name">{{user?.lastName}}</p>
+    </span>
+  <p>Email Id: {{user?.email}}</p>
+  <div>
+</div>

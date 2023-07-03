@@ -1,0 +1,10 @@
+.user-listing { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 500px) {
+  .user-listing {
+    grid-template-columns: 1fr
+  }
+}
