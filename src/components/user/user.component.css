@@ -25,6 +25,10 @@
   background-color: lightcyan;
 }
 
+.profile-image:hover {
+  background-color: rgb(194, 206, 202);
+}
+
 .full-name {
   display: flex;
 }
